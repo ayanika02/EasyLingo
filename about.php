@@ -74,6 +74,7 @@
         <p>Are you planning to sit for proficiency tests of these on-demand languages? Look no further because we present to you handpicked resources for your level of exam.</p>
         <p>So what are you waiting for? Sign up to fulfil your language learning goals! </p>
     </div>
+  </div>
 
    </body>
 </html>
