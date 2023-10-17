@@ -8,6 +8,8 @@
             background-size: cover; /* Adjust this property to control how the image is displayed */
             background-repeat: no-repeat;
         }
+
+  
     .container {
       display: flex;
       flex-direction: column;
@@ -17,7 +19,7 @@
     }
 
     .logo {
-      margin-top: 50px;
+      margin-top: -20px;
     }
 
     .navbar {
@@ -55,6 +57,7 @@
 </head>
 <body>
 <div class="navbar">
+    <a href="login.php">Login</a>
     <a href="welcome.php">Home</a>
     <a href="about.php">About</a>
     <a href="logout.php">Logout</a>
@@ -66,7 +69,10 @@
     
     <div class="content">
         <h1>About Us</h1>
-        <p>Welcome to EasyLingo- a one-stop solution to all your language woes.</p>
+        <p>Welcome to EasyLingo- a one-stop solution to all your language woes. We have chosen some of the most widely spoken languages in the world and given multiple sources of information.</p>
+        <p>You can choose from multiple resource types- certifications, websites and video lectures. You can choose your resource based on your concern- be it Grammar or Spoken. </p>
+        <p>Are you planning to sit for proficiency tests of these on-demand languages? Look no further because we present to you handpicked resources for your level of exam.</p>
+        <p>So what are you waiting for? Sign up to fulfil your language learning goals! </p>
     </div>
 
    </body>
