@@ -1,6 +1,6 @@
 # EasyLingo
 A Database Management System Project \
-Made by Ayanika Bera (12) and Shreyansh Agarwal(10) \
+Made by Ayanika Bera (12) and Shreyansh Agarwal (10) \
 \
 Topic- Language Learning System \
 \
