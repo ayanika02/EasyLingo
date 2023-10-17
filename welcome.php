@@ -1,0 +1,126 @@
+<?php
+include 'progress.php';
+?>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EasyLingo Homepage</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 120vh;
+    }
+
+    .logo {
+      margin-top: -50px;
+    }
+
+    .language-selector {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+    }
+
+    .flag-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+       /* Adjust this value for spacing between flags */
+       margin-right: 40px;
+      cursor: pointer; /* Add cursor pointer for the clickable effect */
+    }
+
+    .flag {
+      width: 150px; /* Adjust the width for larger flags */
+      height: 150px; /* Maintain a 1:1 aspect ratio */
+      border: 1px solid #333; /* Add a border for separation */
+    }
+
+    .language-label {
+      text-align: center;
+      margin-top: 10px; /* Add some space between flag and label */
+    }
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+<div class="navbar">
+    <a href="welcome.php">Home</a>
+    <a href="about.php">About</a>
+    <a href="logout.php">Logout</a>
+  </div>
+  <div class="container">
+    <div class="logo">
+      <img src="logo.jpg" alt="Company Logo" width="200">
+    </div>
+    <div class="language-selector">
+      <!-- Row 1 -->
+      <div class="flag-container" onclick="window.location.href='english.html?language_code=en';">
+        <img class="flag" src="usa.webp" alt="Flag 1">
+        <span class="language-label">English</span>
+      </div>
+      <div class="flag-container" onclick="window.location.href='french.html?language_code=fr';">
+        <img class="flag" src="france.webp" alt="Flag 2">
+        <span class="language-label">French/Français</span>
+      </div>
+      <div class="flag-container" onclick="window.location.href='german.html?language_code=de';">
+        <img class="flag" src="germany.png" alt="Flag 3">
+        <span class="language-label">German/Deutsch</span>
+      </div>
+      <div class="flag-container" onclick="window.location.href='hindi.php?language_code=hi';">
+        <img class="flag" src="india.jpg" alt="Flag 4">
+        <span class="language-label">Hindi/हिंदी </span>
+      </div>
+</div>
+    <div class="language-selector">
+      <!-- Row 2 -->
+      <div class="flag-container" onclick="window.location.href='italian.html?language_code=it';">
+        <img class="flag" src="italy.webp" alt="Flag 5">
+        <span class="language-label">Italian/Italia</span>
+      </div>
+      <div class="flag-container" onclick="window.location.href='dutch.html?language_code=nl';">
+        <img class="flag" src="ned.png" alt="Flag 6">
+        <span class="language-label">Dutch/Nederlands</span>
+      </div>
+      <div class="flag-container" onclick="window.location.href='norwegian.html?language_code=no';">
+        <img class="flag" src="norway.webp" alt="Flag 7">
+        <span class="language-label">Norwegian/Norsk</span>
+      </div>
+      <div class="flag-container" onclick="window.location.href='spanish.html?language_code=es';">
+        <img class="flag" src="spain.webp" alt="Flag 8">
+        <span class="language-label">Spanish/Español</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
