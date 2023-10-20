@@ -5,7 +5,7 @@
   <style>
    body {
             background-image: url('bg.avif');
-            background-size: cover; /* Adjust this property to control how the image is displayed */
+            background-size: cover;
             background-repeat: no-repeat;
         }
 
