@@ -38,20 +38,19 @@ include 'progress.php';
       flex-direction: column;
       align-items: center;
       margin-top: 10px;
-       /* Adjust this value for spacing between flags */
        margin-right: 40px;
-      cursor: pointer; /* Add cursor pointer for the clickable effect */
+      cursor: pointer; 
     }
 
     .flag {
-      width: 150px; /* Adjust the width for larger flags */
-      height: 150px; /* Maintain a 1:1 aspect ratio */
-      border: 1px solid #333; /* Add a border for separation */
+      width: 150px; 
+      height: 150px; 
+      border: 1px solid #333; 
     }
 
     .language-label {
       text-align: center;
-      margin-top: 10px; /* Add some space between flag and label */
+      margin-top: 10px; 
     }
     .navbar {
       background-color: #333;
